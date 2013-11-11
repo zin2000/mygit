@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:te="http://www.seasar.org/teeda/extension">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Calendar</title>
+		<style>
+		.onTeedaError {
+			background-color: #FFCCCC;
+		}
+		</style>
+		<script type="text/javascript" src="../../js/disabled.js"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+		DisabledConf = {
+			time : 50000,
+			submitMessage : function(){
+				alert('送信中です');
+			},
+			anchorMessage : function(){
+				alert('遷移中です');
+			}
+		}
+		//]]>
+		</script>
+	</head>
+	<body>
+		<form id="form">
+			<span id="aaaa" class="T_popupCalendar" datePattern="yy/MM/dd" required="true"></span>
+			<span id="aaaaMessage">dummy</span>
+			<br />
+			<span id="bbbb" class="T_popupCalendar"></span>
+			<span id="bbbbMessage">dummy</span>
+			<br />
+			<input id="doShow" type="submit" value="show" />
+			<input id="doShow2" type="submit" value="show2" />
+		</form>
+	</body>
+</html>

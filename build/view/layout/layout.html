@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:te="http://www.seasar.org/teeda/extension">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Teeda HTML example2</title>
+<link rel="stylesheet" type="text/css" href="../../css/litbox.css" />
+<link href="../../css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../js/kumu.js"></script>
+<script type="text/javascript" src="../../js/event.js"></script>
+<script type="text/javascript" src="../../js/ajax.js"></script>
+<script type="text/javascript" src="../../js/prototype.js"></script>
+<script type="text/javascript" src="../../js/effects.js"></script>
+<script type="text/javascript" src="../../js/dragdrop.js"></script>
+<script type="text/javascript" src="../../js/litbox.js"></script>
+</head>
+<body id="layoutbody">
+<table border="0" cellspacing="5">
+<tr>
+  <td colspan="2"><te:include id="layoutHeader" te:src="/layout/header.html"/></td>
+</tr>
+
+<tr>
+<!-- 
+  <td width="140" valign="top">
+    <te:include id="layoutMenu" te:src="/layout/menu2.html"/>
+  </td>
+-->
+  <td valign="top" align="left">
+    <te:includeChildBody id="layoutChildBody"/>
+  </td>
+</tr>
+<tr>
+  <td colspan="2">
+    <hr/>
+  </td>
+</tr>
+<tr>
+  <td colspan="2">
+    <te:include id="layoutFooter" te:src="/layout/footer.html"/>
+  </td>
+</tr>
+</table>
+</body>
+</html>

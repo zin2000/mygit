@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/src/main/webapp</rootDir>
+    <exportSource>true</exportSource>
+    <reloadable>false</reloadable>
+    <redirectLogger>true</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation>C:\zins-work-shop.war</warLocation>
+    <extraInfo></extraInfo>
+    <webPath>/zins-work-shop</webPath>
+</tomcatProjectProperties>

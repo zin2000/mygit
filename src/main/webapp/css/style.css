@@ -1,0 +1,92 @@
+.rounded-img {
+	display: inline-block;
+	overflow: hidden;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+BODY{
+  color: #333333;
+  line-height: 100%;
+  margin-top: 5%;
+  font-family: "Georgia", monospace;
+}
+A {
+	font-family:"Georgia",sans-serif;
+	color: #444444;
+	text-decoration: none; 
+	font-size: 11px;
+}
+A:link {
+	font-family:"Georgia",sans-serif;
+	color: #444444;
+	text-decoration: none; 
+	font-size: 11px;
+}
+
+A:active {
+	font-family:"Georgia",sans-serif;
+	color: #999;
+	text-decoration: none
+	font-size: 11px;
+}
+A:visited {
+	color: #444444;
+	text-decoration: none
+	font-size: 11px;
+}
+P {
+ 	font-family:"Georgia",sans-serif;
+	color: #666666;
+	font-size: 11px;
+}
+P.TITLE {
+	font-family:"Georgia",sans-serif;
+	color: #666666;
+	font-size: 11px;
+}
+P.PROFILE{
+	font-family:"Georgia",sans-serif;
+	font-size: 8px;
+	color: #666666;
+}
+
+H1 {
+  font-family:"Georgia",sans-serif;
+  color: #000000;
+	font-size: 11px;
+}
+H2 {
+  font-family:"Georgia",sans-serif;
+  color: #000000;
+	font-size: 11px;
+}
+H3 {
+  font-family:"Georgia",sans-serif;
+  color: #000000;
+	font-size: 11px;
+}
+IMG.TITLE {
+  width:105px;
+  height:105px;
+  border-style:none;
+}
+DIV.CENTER{
+	text-align:center;
+}
+HR{
+  color: #999999;
+  border-style: dotted none none none;
+}
+DIV.GUARD{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+SPAN.GUARD{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:100%;
+    background-image:url(../img/sp.png);
+}

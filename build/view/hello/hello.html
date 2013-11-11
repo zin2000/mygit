@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:te="http://www.seasar.org/teeda/extension" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title id="aaa">Hello</title>
+<link id="mockLink" rel="stylesheet" type="text/css" href="mock.css" />
+<style id="mockStyle" type="text/css">@import url('mock.css');</style>
+<script id="mockScript" type="text/javascript" src="mock.js" />
+</head>
+<body>
+こんにちは<span id="name">World!!!</span>
+<hr/>
+文字参照：&amp;&lt;&gt;&quot;&apos;<br />
+数値参照：&#64;&#x41;<br />
+実体参照:&nbsp;&copy;<br />
+CDATA:<![CDATA[<<hoge>>]]><br />
+コメント:<!-- コメント --><br />
+不正な属性:<a href="aaa.html?a=b&c=d">hoge</a><br />
+PI:<?xml-stylesheet href="article-view.xsl" type="text/xsl"?><br />
+</body>
+</html>
